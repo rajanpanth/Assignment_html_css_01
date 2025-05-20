@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.div1{
+    background-color: white;
+    height: 500px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+.div2{
+    background-color: white;
+    height: 500px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+.div3{
+    background-color: white;
+    height: 500px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 60px;
+    margin: 50px;
+    text-shadow: 1px 1px #000;
+    font-weight: 900;
+     -webkit-text-stroke: 4px black;
+    font-family: Arial, sans-serif;
+
+}
+body{
+    background-color: rgb(20, 90, 98);
+}
+li{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    width: 358px;
+    margin-left: -40px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration-line: underline;
+    background-color: chartreuse;
+   margin-top: -20px;
+   height: 110px;
+   margin-bottom: -20px;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+
+}
+
+.header1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration-line: underline;
+     background: linear-gradient(to right, #A8E063, #F5F7A5);
+   margin-top: -20px;
+   height: 100px;
+   margin-bottom: -20px; 
+}
+.header2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration-line: underline;
+     background: linear-gradient(to right, #A18CD1, #FBC2EB);
+   margin-top: -20px;
+   height: 100px;
+   margin-bottom: -20px; 
+}
+.header3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration-line: underline;
+    background: linear-gradient(to right, #FF5E62, #F8C8A6);
+   margin-top: -20px;
+   height: 100px;
+   margin-bottom: -20px; 
+}
+
+ol > li{
+    background-color: rgb(191, 235, 125, 0.2);
+    list-style-position: inside;
+}
+
+.div2 > ul > li{
+    background-color: rgb(199, 48, 199, 0.2);
+    list-style-position: inside;
+    
+}
+
+.div3 > ul > li{
+    background-color: rgb(251, 165, 7, 0.2);
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.div1>header>h2{
+    background: linear-gradient(to right, #375e08, #F5F7A5);
+   
+}
+.div2>header>h2{
+     background: linear-gradient(to right, #5d32c1, #FBC2EB);
+}
+.div3>header>h2{
+   background: linear-gradient(to right, #ce2f31, #F8C8A6);
+}
